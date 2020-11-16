@@ -1,6 +1,14 @@
 # Vue Next HeroIcons
 A set of free Hero Icons library made for Vue 3
 
+<a href="https://npmjs.org/package/vue-next-heroicons">
+	<img src="https://img.shields.io/npm/v/vue-next-heroicons.svg"  alt="npm version">
+</a>
+<a href="https://github.com/dapotatoman/vue-next-heroicons/blob/master/LICENSE.md">
+	<img src="https://img.shields.io/npm/l/vue-next-heroicons.svg" alt="license">
+</a>
+
+<br/>
 <br/>
 
 ## Install
@@ -55,7 +63,7 @@ By default, icon size is `1.5x`.
 
 ## Credits
 
-*Hero Icons* © [Tailwind Labs](https://github.com/tailwindlabs), Released under the [MIT](./LICENSE.md) License.<br>
+*Hero Icons* © [Tailwind Labs](https://github.com/tailwindlabs), Released under the [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) License.<br>
 
 ## Author
 *vue-next-heroicons* © [dapotatoman](https://github.com/dapotatoman), Released under the [MIT](./LICENSE.md) License.<br>
