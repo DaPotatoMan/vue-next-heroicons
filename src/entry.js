@@ -20,19 +20,17 @@ export const HeroIcons = {
 		}
 	},
 
-	install(app, {
-		prefix = 'heroicon',
-		lowerCase = true
-	} = {}) {
+	/**
+	 * Globally install icons
+	 * @param {Object} app - Instance of vue
+	 * @param {Object} prefix - Prefix of icon component in `PascalCase`.
+	 */
+	install(app, { prefix = 'HeroIcon' } = {}) {
 		if (this.installed) return;
 		this.installed = true;
 
-		Object.entries(this.icons).forEach(([, iconComponent]) => {
-			let { name } = iconComponent;
-
-			if (prefix) name = `${prefix}-${name}`;
-			if (lowerCase) name = name.toLowerCase();
-
+		Object.entries(this.icons).forEach(([iconName, iconComponent]) => {
+			const name = prefix.concat(iconName);
 			app.component(name, iconComponent);
 		});
 	}
