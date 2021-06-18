@@ -2,10 +2,10 @@
 A set of free Hero Icons library made for Vue 3
 
 <a href="https://npmjs.org/package/vue-next-heroicons">
-	<img src="https://img.shields.io/npm/v/vue-next-heroicons.svg"  alt="npm version">
-</a>
-<a href="https://github.com/dapotatoman/vue-next-heroicons/blob/master/LICENSE.md">
-	<img src="https://img.shields.io/npm/l/vue-next-heroicons.svg" alt="license">
+	<img src="https://img.shields.io/npm/v/vue-next-heroicons.svg?style=for-the-badge"  alt="npm version">
+    <img src="https://img.shields.io/bundlephobia/min/vue-next-heroicons?style=for-the-badge" alt="npm bundle size">
+	<img src="https://img.shields.io/snyk/vulnerabilities/npm/vue-next-heroicons?style=for-the-badge" alt="vulnerabilities">
+	<img src="https://img.shields.io/npm/dy/vue-next-heroicons?style=for-the-badge" alt="npm downloads">
 </a>
 
 <br/>
